@@ -1,9 +1,9 @@
 /*!
     This is the solution of our problem. We simply had
-    to replace our operator from a multiplication (*) sign
-    to an addition (+) sign. Now we add all of our 
-    modulus 3 and 5 elements from our vector together 
-    in our for loop.
+    to replace our operator in line 13 from a 
+    multiplication (*) sign to an addition (+) 
+    sign. Now we add all of our modulus 3 and 5
+    elements from our vector together in our for loop.
 */
 
 fn main() {
