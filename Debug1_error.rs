@@ -1,3 +1,9 @@
+/*!
+    First error is that we cannot use an immutable variable (line 11)
+    for 'result' in a mutable context (line 13). Rust will throw
+    an error and prevent us from compiling our code.
+*/
+
 fn main() {
     println!("Printing multiples all numbers divisible between 1 and 1000 of 3 and 5");
     let mut numbers: Vec<u128> = Vec::new();
